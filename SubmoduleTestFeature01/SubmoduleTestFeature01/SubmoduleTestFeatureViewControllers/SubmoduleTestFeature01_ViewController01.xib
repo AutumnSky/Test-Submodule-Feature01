@@ -7,9 +7,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubmoduleTestFeatureViewController02" customModule="SubmoduleTestFeature01" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubmoduleTestFeature01_ViewController01" customModule="SubmoduleTestFeature01" customModuleProvider="target">
             <connections>
-                <outlet property="label" destination="HJo-ZI-a8H" id="QUS-HI-gSy"/>
+                <outlet property="label" destination="nkR-je-Riq" id="I0x-Wh-nCs"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJo-ZI-a8H">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkR-je-Riq">
                     <rect key="frame" x="186" y="438" width="42" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -27,11 +27,11 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="HJo-ZI-a8H" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="FRQ-eS-w3x"/>
-                <constraint firstItem="HJo-ZI-a8H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xIo-v0-xiK"/>
+                <constraint firstItem="nkR-je-Riq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FhL-cQ-G2p"/>
+                <constraint firstItem="nkR-je-Riq" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Hm1-oR-r6d"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+            <point key="canvasLocation" x="132" y="154"/>
         </view>
     </objects>
 </document>

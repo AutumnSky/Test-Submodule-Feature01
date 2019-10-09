@@ -10,11 +10,11 @@
 		6BB44C3A234DD01C004AFE8B /* SubmoduleTestFeature01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB44C30234DD01C004AFE8B /* SubmoduleTestFeature01.framework */; };
 		6BB44C3F234DD01C004AFE8B /* SubmoduleTestFeature01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB44C3E234DD01C004AFE8B /* SubmoduleTestFeature01Tests.swift */; };
 		6BB44C41234DD01C004AFE8B /* SubmoduleTestFeature01.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB44C33234DD01C004AFE8B /* SubmoduleTestFeature01.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BB44C4B234DD069004AFE8B /* SubmoduleTestCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB44C4A234DD069004AFE8B /* SubmoduleTestCore.swift */; };
-		6BB44C98234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB44C96234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.swift */; };
-		6BB44C99234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB44C97234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.xib */; };
-		6BB44D14234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB44D12234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.swift */; };
-		6BB44D15234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB44D13234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.xib */; };
+		6BB44C4B234DD069004AFE8B /* SubmoduleTestFeature01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB44C4A234DD069004AFE8B /* SubmoduleTestFeature01.swift */; };
+		6BB44C98234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB44C96234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.swift */; };
+		6BB44C99234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB44C97234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.xib */; };
+		6BB44D14234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB44D12234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.swift */; };
+		6BB44D15234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB44D13234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +34,11 @@
 		6BB44C39234DD01C004AFE8B /* SubmoduleTestFeature01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmoduleTestFeature01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB44C3E234DD01C004AFE8B /* SubmoduleTestFeature01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestFeature01Tests.swift; sourceTree = "<group>"; };
 		6BB44C40234DD01C004AFE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BB44C4A234DD069004AFE8B /* SubmoduleTestCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestCore.swift; sourceTree = "<group>"; };
-		6BB44C96234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestFeatureViewController01.swift; sourceTree = "<group>"; };
-		6BB44C97234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmoduleTestFeatureViewController01.xib; sourceTree = "<group>"; };
-		6BB44D12234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestFeatureViewController02.swift; sourceTree = "<group>"; };
-		6BB44D13234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmoduleTestFeatureViewController02.xib; sourceTree = "<group>"; };
+		6BB44C4A234DD069004AFE8B /* SubmoduleTestFeature01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestFeature01.swift; sourceTree = "<group>"; };
+		6BB44C96234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestFeature01_ViewController01.swift; sourceTree = "<group>"; };
+		6BB44C97234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmoduleTestFeature01_ViewController01.xib; sourceTree = "<group>"; };
+		6BB44D12234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmoduleTestFeature01_ViewController02.swift; sourceTree = "<group>"; };
+		6BB44D13234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmoduleTestFeature01_ViewController02.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				6BB44C95234DD32D004AFE8B /* SubmoduleTestFeatureViewControllers */,
-				6BB44D12234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.swift */,
-				6BB44D13234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.xib */,
-				6BB44C4A234DD069004AFE8B /* SubmoduleTestCore.swift */,
+				6BB44D12234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.swift */,
+				6BB44D13234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.xib */,
+				6BB44C4A234DD069004AFE8B /* SubmoduleTestFeature01.swift */,
 				6BB44C33234DD01C004AFE8B /* SubmoduleTestFeature01.h */,
 				6BB44C34234DD01C004AFE8B /* Info.plist */,
 			);
@@ -103,8 +103,8 @@
 		6BB44C95234DD32D004AFE8B /* SubmoduleTestFeatureViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				6BB44C96234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.swift */,
-				6BB44C97234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.xib */,
+				6BB44C96234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.swift */,
+				6BB44C97234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.xib */,
 			);
 			path = SubmoduleTestFeatureViewControllers;
 			sourceTree = "<group>";
@@ -202,8 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BB44D15234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.xib in Resources */,
-				6BB44C99234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.xib in Resources */,
+				6BB44D15234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.xib in Resources */,
+				6BB44C99234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BB44D14234DEA09004AFE8B /* SubmoduleTestFeatureViewController02.swift in Sources */,
-				6BB44C4B234DD069004AFE8B /* SubmoduleTestCore.swift in Sources */,
-				6BB44C98234DD3CA004AFE8B /* SubmoduleTestFeatureViewController01.swift in Sources */,
+				6BB44D14234DEA09004AFE8B /* SubmoduleTestFeature01_ViewController02.swift in Sources */,
+				6BB44C4B234DD069004AFE8B /* SubmoduleTestFeature01.swift in Sources */,
+				6BB44C98234DD3CA004AFE8B /* SubmoduleTestFeature01_ViewController01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

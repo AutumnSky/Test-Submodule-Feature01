@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SubmoduleTestFeature01.podspec">
+   </FileRef>
+   <FileRef
       location = "group:SubmoduleTestFeatureTestbed/SubmoduleTestFeatureTestbed.xcodeproj">
    </FileRef>
    <FileRef

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SubmoduleTestFeature01"
-  spec.version      = "0.1"
+  spec.version      = "0.3"
   spec.summary      = "SubmoduleTestFeature01"
 
   # This description is used to generate tags and improve search results.
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-  spec.source_files  = "SubmoduleTestFeature01/SubmoduleTestFeature01"
+  spec.source_files  = "SubmoduleTestFeature01/SubmoduleTestFeature01/**/*"
 
   # spec.public_header_files = "Classes/**/*.h"
 

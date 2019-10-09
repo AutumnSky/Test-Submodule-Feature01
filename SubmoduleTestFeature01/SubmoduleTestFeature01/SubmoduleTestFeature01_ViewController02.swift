@@ -1,5 +1,5 @@
 //
-//  SubmoduleTestFeatureViewController01.swift
+//  SubmoduleTestFeature01_ViewController02.swift
 //  SubmoduleTestFeature01
 //
 //  Created by MinJeong Kim on 09/10/2019.
@@ -8,14 +8,12 @@
 
 import UIKit
 
-public class SubmoduleTestFeatureViewController01: UIViewController {
+public class SubmoduleTestFeature01_ViewController02: UIViewController {
 
     @IBOutlet weak var label: UILabel!
-    
-    override public func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
-
-        label.text = "SubmoduleTestFeatureViewController01\nCode working!"
+        label.text = "SubmoduleTestFeatureViewController02\ncode works!"
     }
 
 
