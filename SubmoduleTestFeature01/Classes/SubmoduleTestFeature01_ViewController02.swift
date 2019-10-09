@@ -11,6 +11,7 @@ import UIKit
 public class SubmoduleTestFeature01_ViewController02: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         label.text = "SubmoduleTestFeatureViewController02\ncode works!"

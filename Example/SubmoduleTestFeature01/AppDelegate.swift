@@ -17,8 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        let bundleURL = Bundle(for: SubmoduleTestFeature01_ViewController01.self)
+            .bundleURL
+            .appendingPathComponent("SubmoduleTestFeature01.bundle")
+        
+        let bundle = Bundle(url: bundleURL)
+        
         let rootViewController = SubmoduleTestFeature01_ViewController01(nibName: String(describing: SubmoduleTestFeature01_ViewController01.self),
-                                                                         bundle: Bundle(for: SubmoduleTestFeature01_ViewController01.self))
+                                                                         bundle: bundle)
 
         if let window = self.window{
                window.rootViewController = rootViewController

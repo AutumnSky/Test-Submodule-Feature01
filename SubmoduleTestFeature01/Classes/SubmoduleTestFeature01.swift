@@ -7,9 +7,14 @@
 //
 
 import Foundation
+import SubmoduleTestCore
 
 public class SubmoduleTestFeature01 {
     public static func helloWorld() -> String {
         return "hello SubmoduleTestFeature01"
+    }
+    
+    public static func helloWorldFromCore() -> String {
+        return SubmoduleTestCore.helloWorld()
     }
 }

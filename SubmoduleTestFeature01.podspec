@@ -29,14 +29,16 @@ Testing for Submodule SubmoduleTestFeature01
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
+  s.swift_versions = '5.0'
 
   s.source_files = 'SubmoduleTestFeature01/Classes/**/*'
-  
+
   s.resource_bundles = {
     'SubmoduleTestFeature01' => ['SubmoduleTestFeature01/Assets/**/*']
   }
+  #s.source_files = 'SubmoduleTestFeature01/Classes/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SubmoduleTestCore', '~> 0.2'
 end

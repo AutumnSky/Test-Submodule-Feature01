@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SubmoduleTestCore
 
 public class SubmoduleTestFeature01_ViewController01: UIViewController {
 
@@ -15,7 +16,7 @@ public class SubmoduleTestFeature01_ViewController01: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
 
-        label.text = "SubmoduleTestFeatureViewController01\nCode working!"
+        label.text = SubmoduleTestCore.helloWorld()
     }
 
 
