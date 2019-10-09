@@ -25,8 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
 //        window?.rootViewController = ViewController(nibName: nil, bundle: nil)
-        window?.rootViewController = SubmoduleTestFeatureViewController01(nibName: String(describing: SubmoduleTestFeatureViewController01.self),
-                                                                          bundle: Bundle(for: SubmoduleTestFeatureViewController01.self))
+        window?.rootViewController = SubmoduleTestFeatureViewController02(nibName: String(describing: SubmoduleTestFeatureViewController02.self),
+                                                                          bundle: Bundle(for: SubmoduleTestFeatureViewController02.self))
         window?.makeKeyAndVisible()
     }
 
