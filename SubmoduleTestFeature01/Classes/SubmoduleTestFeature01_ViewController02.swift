@@ -14,7 +14,7 @@ public class SubmoduleTestFeature01_ViewController02: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "SubmoduleTestFeatureViewController02\ncode works!"
+        label.text = "SubmoduleTestFeatureViewController02 v0.6\ncode works!"
     }
 
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SubmoduleTestFeature01'
-  s.version          = '0.5'
+  s.version          = '0.6'
   s.summary          = 'SubmoduleTestFeature01'
 
 # This description is used to generate tags and improve search results.
@@ -34,11 +34,12 @@ Testing for Submodule SubmoduleTestFeature01
   s.source_files = 'SubmoduleTestFeature01/Classes/**/*'
 
   s.resource_bundles = {
+  #   'SubmoduleTestStatic' => ['SubmoduleTestStatic/Assets/*.png']
     'SubmoduleTestFeature01' => ['SubmoduleTestFeature01/Assets/**/*']
   }
-  #s.source_files = 'SubmoduleTestFeature01/Classes/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SubmoduleTestCore', '~> 0.2'
+  s.dependency 'SubmoduleTestCore', '~> 0.4'
+#  s.dependency 'SubmoduleTestFeature02', '~> 0.2'
 end

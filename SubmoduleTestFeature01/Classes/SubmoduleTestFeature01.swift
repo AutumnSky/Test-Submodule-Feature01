@@ -11,7 +11,7 @@ import SubmoduleTestCore
 
 public class SubmoduleTestFeature01 {
     public static func helloWorld() -> String {
-        return "hello SubmoduleTestFeature01"
+        return "hello SubmoduleTestFeature01 v0.6"
     }
     
     public static func helloWorldFromCore() -> String {
